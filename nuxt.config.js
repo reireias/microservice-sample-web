@@ -1,3 +1,4 @@
+/* eslint nuxt/no-cjs-in-config: 0 */
 const VuetifyLoaderPlugin = require('vuetify-loader/lib/plugin')
 const pkg = require('./package')
 
