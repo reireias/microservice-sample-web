@@ -23,6 +23,8 @@
     "cross-env": "^5.2.0",
     "express": "^4.16.4",
     "nuxt": "^2.4.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
     "vuetify": "^1.5.5",
     "vuetify-loader": "^1.2.1"
   },
@@ -49,8 +51,6 @@
     "prettier": "1.14.3",
     "require-extension-hooks": "^0.3.3",
     "require-extension-hooks-babel": "^0.1.1",
-    "require-extension-hooks-vue": "^2.0.0",
-    "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.2"
+    "require-extension-hooks-vue": "^2.0.0"
   }
 }
