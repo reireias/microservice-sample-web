@@ -21,27 +21,27 @@
         <v-card-text>
           <v-textarea
             v-model="content"
-            @keyup.enter="tweetEnter"
             label="What's happening?"
             box
             autofocus
+            @keyup.enter="tweetEnter"
           />
         </v-card-text>
         <v-card-actions>
           <v-spacer />
           <v-btn
-            @click="dialog = false"
             icon
             flat
             color="red"
+            @click="dialog = false"
           >
             <v-icon>close</v-icon>
           </v-btn>
           <v-btn
-            @click="tweet"
             icon
             flat
             color="green"
+            @click="tweet"
           >
             <v-icon>check</v-icon>
           </v-btn>

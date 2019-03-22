@@ -12,17 +12,17 @@
       <v-spacer />
       <v-btn
         v-if="user.follow"
-        @click="unfollow(user)"
         color="red"
         outline
+        @click="unfollow(user)"
       >
         unfollow
       </v-btn>
       <v-btn
         v-else
-        @click="follow(user)"
         color="primary"
         outline
+        @click="follow(user)"
       >
         follow
       </v-btn>
