@@ -1,15 +1,7 @@
 <template>
   <v-fab-transition>
     <v-dialog v-model="dialog" max-width="600px">
-      <v-btn
-        slot="activator"
-        fixed
-        bottom
-        right
-        fab
-        dark
-        color="primary"
-      >
+      <v-btn slot="activator" fixed bottom right fab dark color="primary">
         <v-icon>edit</v-icon>
       </v-btn>
       <v-card>
@@ -29,20 +21,10 @@
         </v-card-text>
         <v-card-actions>
           <v-spacer />
-          <v-btn
-            icon
-            flat
-            color="red"
-            @click="dialog = false"
-          >
+          <v-btn icon flat color="red" @click="dialog = false">
             <v-icon>close</v-icon>
           </v-btn>
-          <v-btn
-            icon
-            flat
-            color="green"
-            @click="tweet"
-          >
+          <v-btn icon flat color="green" @click="tweet">
             <v-icon>check</v-icon>
           </v-btn>
         </v-card-actions>
