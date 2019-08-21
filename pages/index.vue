@@ -4,7 +4,7 @@
       <div class="text-xs-center">
         <h1>Microservice Sample App</h1>
       </div>
-      <br>
+      <br />
       <h2>Technologies</h2>
       <ul>
         <li>Kubernetes</li>

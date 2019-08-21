@@ -2,7 +2,7 @@
   <v-card>
     <v-btn icon>
       <v-avatar size="32px">
-        <img :src="user.avatarUrl">
+        <img :src="user.avatarUrl" />
       </v-avatar>
     </v-btn>
     <span class="name">
@@ -10,20 +10,10 @@
     </span>
     <v-card-actions>
       <v-spacer />
-      <v-btn
-        v-if="user.follow"
-        color="red"
-        outline
-        @click="unfollow(user)"
-      >
+      <v-btn v-if="user.follow" color="red" outline @click="unfollow(user)">
         unfollow
       </v-btn>
-      <v-btn
-        v-else
-        color="primary"
-        outline
-        @click="follow(user)"
-      >
+      <v-btn v-else color="primary" outline @click="follow(user)">
         follow
       </v-btn>
     </v-card-actions>

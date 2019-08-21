@@ -2,12 +2,7 @@
   <v-flex xs10 offset-xs1>
     <v-container fluid grid-list-xs>
       <v-layout justify-start row wrap>
-        <v-flex
-          v-for="user in users"
-          :key="user._id"
-          class="users"
-          xs6
-        >
+        <v-flex v-for="user in users" :key="user._id" class="users" xs6>
           <user :user="user" />
         </v-flex>
       </v-layout>

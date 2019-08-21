@@ -1,12 +1,7 @@
 <template>
   <v-container fluid grid-list-xs>
     <v-layout justify-center row wrap>
-      <v-flex
-        v-for="tweet in timeline"
-        :key="tweet._id"
-        class="tweet"
-        xs12
-      >
+      <v-flex v-for="tweet in timeline" :key="tweet._id" class="tweet" xs12>
         <tweet :tweet="tweet" />
       </v-flex>
     </v-layout>

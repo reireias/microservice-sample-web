@@ -3,16 +3,14 @@
     <v-layout row wrap>
       <v-btn icon>
         <v-avatar size="32px">
-          <img :src="tweet.avatarUrl">
+          <img :src="tweet.avatarUrl" />
         </v-avatar>
       </v-btn>
       <div>
         <span class="name">
           {{ tweet.name }}
         </span>
-        <span class="created-at">
-          ・ {{ formatDate(tweet.createdAt) }}
-        </span>
+        <span class="created-at"> ・ {{ formatDate(tweet.createdAt) }} </span>
         <span class="content">
           {{ tweet.content }}
         </span>

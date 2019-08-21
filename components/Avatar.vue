@@ -4,7 +4,7 @@
       <v-menu bottom left>
         <v-btn slot="activator" icon>
           <v-avatar size="32px">
-            <img :src="$store.state.user.avatarUrl">
+            <img :src="$store.state.user.avatarUrl" />
           </v-avatar>
         </v-btn>
         <v-list>
@@ -15,17 +15,12 @@
       </v-menu>
     </template>
     <template v-else>
-      <v-btn
-        round
-        outline
-        href="/api/auth/github"
-      >
+      <v-btn round outline href="/api/auth/github">
         Login
       </v-btn>
     </template>
   </div>
 </template>
-
 
 <style>
 .v-tabs .v-btn {

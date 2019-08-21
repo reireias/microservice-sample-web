@@ -1,11 +1,6 @@
 <template>
   <v-app>
-    <v-tabs
-      icons-and-text
-      dark
-      color="primary"
-      slider-color="accent"
-    >
+    <v-tabs icons-and-text dark color="primary" slider-color="accent">
       <v-tab to="/home">
         Home
         <v-icon>home</v-icon>
