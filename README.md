@@ -1,3 +1,4 @@
+![test](https://github.com/reireias/microservice-sample-web/workflows/test/badge.svg)
 # Microservice Sample Web Service
 Web service for microservice sample application.
 
